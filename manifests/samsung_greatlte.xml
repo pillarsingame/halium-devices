@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="ExynosDevelopment"
+    fetch="https://github.com/ExynosDevelopment"
+    revision="nougat" />
+
+<remote name="universal8895"
+    fetch="https://github.com/universal8895"
+    revision="cm-14.1" />
+
+<remote  name="djb77"
+    fetch="https://github.com/djb77/"
+    revision="master" />
+
+<project path="device/samsung/greatlte" name="android_device_samsung_greatlte" remote="ExynosDevelopment" revision="lin-14.1" />
+<project path="device/samsung/great-common" name="android_device_samsung_great-common" remote="ExynosDevelopment" />
+
+<project path="vendor/samsung/great-common" name="android_vendor_samsung_great-common" remote="ExynosDevelopment" />
+
+<project path="kernel/samsung/universal8895" name="android_kernel_samsung_universal8895" remote="ExynosDevelopment" />
+
+<project path="hardware/samsung" name="android_hardware_samsung" remote="los" revision="cm-14.1" />
+<project path="hardware/samsung_slsi-cm/exynos5" name="android_hardware_samsung_slsi-cm_exynos5" remote="universal8895" />
+<project path="hardware/samsung_slsi-cm/exynos8895" name="android_hardware_samsung_slsi-cm_exynos8895" remote="universal8895" />
+
+<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-cortex_a53-linux-gnueabi" name="aarch64-cortex_a53-linux-gnueabi" remote="djb77" />
+
+</manifest>
