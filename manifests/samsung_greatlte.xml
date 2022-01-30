@@ -13,6 +13,10 @@
     fetch="https://github.com/djb77/"
     revision="master" />
 
+<remote  name="vanyasem"
+    fetch="https://github.com/vanyasem"
+    revision="halium-7.1" />
+
 <project path="device/samsung/greatlte" name="android_device_samsung_greatlte" remote="ExynosDevelopment" revision="lin-14.1" />
 <project path="device/samsung/great-common" name="android_device_samsung_great-common" remote="ExynosDevelopment" />
 
@@ -20,7 +24,7 @@
 
 <project path="kernel/samsung/universal8895" name="android_kernel_samsung_universal8895" remote="ExynosDevelopment" />
 
-<project path="hardware/samsung" name="android_hardware_samsung" remote="los" revision="cm-14.1" />
+<project path="hardware/samsung" name="android_hardware_samsung" remote="vanyasem" />
 <project path="hardware/samsung_slsi-cm/exynos5" name="android_hardware_samsung_slsi-cm_exynos5" remote="universal8895" />
 <project path="hardware/samsung_slsi-cm/exynos8895" name="android_hardware_samsung_slsi-cm_exynos8895" remote="universal8895" />
 
